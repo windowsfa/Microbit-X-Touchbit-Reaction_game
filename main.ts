@@ -15,4 +15,5 @@ basic.forever(function () {
         Time = timeanddate.secondsSinceReset()
         touchbit.setLight(touchbit.TouchPad.d, 1)
     }
+    basic.showNumber(Time - timeanddate.secondsSinceReset())
 })
